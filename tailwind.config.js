@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      bebas: ['Bebas Neue', 'cursive'], // Bebas Neue font
+      robotoCondensed: ['Roboto Condensed', 'sans-serif'], // Roboto Condensed font
+      robotoFlex: ['Roboto Flex', 'sans-serif'], // Roboto Flex font
+    },
+    extend: {
+
+    },
   },
   plugins: [],
 }
