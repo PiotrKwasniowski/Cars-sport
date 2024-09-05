@@ -4,7 +4,7 @@ import Lines from "../assets/lines.png"
 function Main() {
   return (
     <div className="  mx-auto flex flex-col justify-center w-full  bg-[#F7F7F7]">
-        <div className="ml-40 w-[83] h-[41] flex flex-col gap-10">
+        <div className="ml-20 md:ml-20 w-[83] h-[41] flex flex-col gap-10">
             <h1 className="font-bebas font-normal text-[76px] text-[#282828] z-10">SPRZEDAJEMY SAMOCHODY <br /> Z EUROPY</h1>
             <h2 className="font-robotoCondensed font-normal text-[16px] text-[#282828] z-10">Kup komfortowy pojazd, aby każda podróż <br/>była wyjątkowym przeżyciem</h2>
             <div className="flex flex-row gap-5">

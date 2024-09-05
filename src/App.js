@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/footer';
 import Galery from './components/Galery';
 import GaleryText from './components/GaleryText';
 import Header from './components/Header';
@@ -11,6 +12,7 @@ function App() {
       <Main/>
       <GaleryText/>
       <Galery/>
+      <Footer/>
     </div>
   );
 }
