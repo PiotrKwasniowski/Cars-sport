@@ -21,7 +21,7 @@ function Header() {
         </div>
 
 
-        <button className="bg-blue-700 hover:bg-blue-500 text-[15px] text-white font-bold py-2 px-4 rounded transition-all font-robotoFlex">Zadzwoń do nas</button>
+        <button className="bg-blue-700 hover:bg-blue-500 text-[15px] z-10 text-white font-bold py-2 px-4 rounded transition-all font-robotoFlex">Zadzwoń do nas</button>
     </div>
   );
 }
