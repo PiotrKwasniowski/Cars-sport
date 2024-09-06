@@ -4,7 +4,7 @@ import masserrati from '../assets/masserati.png';
 
 function Galery() {
   return (
-    <div className=" mt-16 mx-auto flex flex-col max-w-full overflow-hidden ml-20 bg-[#f7f7f7]">
+    <div className=" mt-16 mx-auto flex flex-col max-w-[95%] mm:overflow-hidden mm:ml-0 sm:ml-20 bg-[#f7f7f7]">
         <div className=" mx-auto flex max-w-full overflow-hidden  flex-row w-full  gap-20 bg-[#f7f7f7]">
             <img className='w-[41%] h-[100%]' src={alfa}/>
             <img className='w-[41%] h-[100%]' src={masserrati}/>
