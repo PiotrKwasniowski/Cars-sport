@@ -2,7 +2,7 @@ import Cars from "../../assets/cars.png"
 import Lines from "../../assets/lines.png"
 
 function Main() {
-  const mainHeading1 = "SPRZEDAJEMY SAMOCHODY Z EUROPY";
+  const mainHeading1 = "SPRZEDAJEMY SAMOCHODY ";
   const mainHeading2 = "Z EUROPY";
   const subHeading1 = "Kup komfortowy pojazd, aby każda podróż ";
   const subHeading2 = "była wyjątkowym przeżyciem";
