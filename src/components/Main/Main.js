@@ -1,5 +1,5 @@
-import Cars from "../assets/cars.png"
-import Lines from "../assets/lines.png"
+import Cars from "../../assets/cars.png"
+import Lines from "../../assets/lines.png"
 
 function Main() {
   return (

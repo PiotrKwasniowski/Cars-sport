@@ -1,9 +1,9 @@
 import './App.css';
-import Footer from './components/footer';
-import Galery from './components/Galery';
-import GaleryText from './components/GaleryText';
-import Header from './components/Header';
-import Main from './components/Main';
+import Footer from './components/footer/footer';
+import Galery from './components/Gallery/Galery';
+import GaleryText from './components/Gallery/GaleryText';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
 
 function App() {
   return (
