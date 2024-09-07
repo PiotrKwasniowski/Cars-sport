@@ -27,7 +27,7 @@ function Footer() {
         </div>
         <div className=" w-full flex flex-row self-center mt-10 gap-10">
            <div className='absolute bot-6 left-0 w-full h-[2px] bg-white'/>
-           <div className='w-full flex flex-row justify-between px-24 py-5'>
+           <div className='w-full flex flex-row justify-between mm:px-5 md:px-24 py-5'>
                <h4 className='text-white font-bold font-robotoCondensed text-[16px]'>Cars Spot</h4>
                <h4 className='text-white font-bold font-robotoCondensed text-[16px] underline underline-offset-4' >Poltiyka prywatności</h4>
            </div>
