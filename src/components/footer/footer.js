@@ -5,7 +5,7 @@ function Footer() {
      const privacyPolicyText = "Polityka prywatności";
      
      return (
-       <div className="flex flex-col gap-[48px] justify-center align-middle items-center w-full h-full bg-[#282828]">
+       <div className="flex flex-col gap-[48px] justify-center align-middle items-center w-full h-full bg-accent">
          <div className="flex mm:flex-col md:flex-row mm:gap-20 md:gap-12 md:ml-24 mt-32">
            <FooterText/>
            <FooterText/>

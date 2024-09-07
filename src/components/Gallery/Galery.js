@@ -13,11 +13,11 @@ function Galery() {
             
         </div>
         <div className="align-middle gap-5 flex flex-row  self-center mt-10">
-            <Dot color="#0147ff"/>
-            <Dot color="#ededed"/>
-            <Dot color="#ededed"/>
-            <Dot color="#ededed"/>
-            <Dot color="#ededed"/>
+            <Dot color="secondary"/>
+            <Dot color="primary"/>
+            <Dot color="primary"/>
+            <Dot color="primary"/>
+            <Dot color="primary"/>
         </div>
     </div>
   );

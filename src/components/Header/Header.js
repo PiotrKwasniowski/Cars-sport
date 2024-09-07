@@ -20,20 +20,20 @@ function Header() {
 
 
       <div className="mm:hidden flex-row gap-10 items-center md:flex">
-        <h2 className="font-normal font-robotoFlex text-[#282828]">{galleryText}</h2>
-        <h2 className="font-normal font-robotoFlex text-[#282828]">{faqText}</h2>
+        <h2 className="font-normal font-robotoFlex text-accent">{galleryText}</h2>
+        <h2 className="font-normal font-robotoFlex text-accent">{faqText}</h2>
       </div>
 
 
-      <button className="bg-blue-700 mm:hidden hover:bg-blue-500 text-[15px] z-10 md:flex text-white font-bold py-2 px-4 rounded transition-all font-robotoFlex">
+      <button className="bg-secondary md:flex mm:hidden text-[15px] z-10  text-white font-bold py-2 px-4 rounded transition-all font-robotoFlex">
         {callUsText}
       </button>
 
 
       <div className={isOpen ? 'flex' : 'hidden md:hidden flex-row'}>
         <div className="flex flex-row gap-5 items-center">
-          <h2 className="font-normal font-robotoFlex text-[#282828]">{galleryText}</h2>
-          <h2 className="font-normal font-robotoFlex text-[#282828]">{faqText}</h2>
+          <h2 className="font-normal font-robotoFlex text-accent">{galleryText}</h2>
+          <h2 className="font-normal font-robotoFlex text-accent">{faqText}</h2>
         </div>
       </div>
     </div>

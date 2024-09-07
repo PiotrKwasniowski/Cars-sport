@@ -5,12 +5,16 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      bebas: ['Bebas Neue', 'cursive'], // Bebas Neue font
-      robotoCondensed: ['Roboto Condensed', 'sans-serif'], // Roboto Condensed font
-      robotoFlex: ['Roboto Flex', 'sans-serif'], // Roboto Flex font
+      bebas: ['Bebas Neue', 'cursive'], 
+      robotoCondensed: ['Roboto Condensed', 'sans-serif'], 
+      robotoFlex: ['Roboto Flex', 'sans-serif'], 
     },
     extend: {
-      
+      colors: {
+        primary: '#F7F7F7', 
+        secondary: '#0137FF', 
+        accent: '#282828', 
+      },
     },
     screens: {
       'mm': '320px',
@@ -22,4 +26,3 @@ module.exports = {
   },
   plugins: [],
 }
-
